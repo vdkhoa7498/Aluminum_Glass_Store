@@ -1,0 +1,405 @@
+.ggmap-group {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.contact-info ul li {
+    color: #202020;
+    margin-bottom: 9px
+}
+
+.contact-info ul li a {
+    color: #202020;
+    font-weight: 300
+}
+
+.contact-info ul li a:hover {
+    color: #0f4a7e;
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.banner-fixed {
+    position: fixed;
+    top: 5px;
+    z-index: 888;
+}
+
+.banner .banner-image {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+}
+
+.banner .banner-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+}
+
+.popular-items .single-popular-items .popular-img {
+    overflow: hidden;
+    margin-bottom: 19px;
+    position: relative
+}
+
+.popular-items .single-popular-items .popular-img img {
+    width: 100%
+}
+
+.popular-items .single-popular-items .popular-img .img-cap {
+    position: absolute;
+    bottom: -20%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+
+.popular-items .single-popular-items .popular-img .img-cap span {
+    color: #fff;
+    background: rgba(29, 37, 71, 0.5);
+    padding: 20px 0;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Cinzel", serif
+}
+
+.popular-items .single-popular-items .popular-img .favorit-items {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    left: 0;
+    margin: 0 auto;
+    transform: translateY(-45%);
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+
+.popular-items .single-popular-items .popular-img .favorit-items span {
+    color: #333333;
+    font-size: 30px;
+    cursor: pointer
+}
+
+.popular-items .single-popular-items .popular-caption h3 a {
+    color: #444444;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .popular-items .single-popular-items .popular-caption h3 a {
+        font-size: 17px
+    }
+}
+
+@media (max-width: 575px) {
+    .popular-items .single-popular-items .popular-caption h3 a {
+        font-size: 20px
+    }
+}
+
+.popular-items .single-popular-items .popular-caption span {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+    display: block
+}
+
+.popular-items .nav-tabs {
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    position: relative;
+    border: 0;
+    display: flex;
+    justify-content: center
+}
+
+.popular-items .nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 2px solid transparent
+}
+
+@media (max-width: 575px) {
+    .popular-items .nav-tabs .nav-link {
+        padding: .5rem .6rem
+    }
+}
+
+.popular-items .nav-tabs .nav-item {
+    padding-bottom: 10px;
+    display: block;
+    color: #1b1b1b;
+    text-transform: capitalize;
+    font-size: 16px
+}
+
+.popular-items .nav-tabs .nav-item.show .nav-link,
+.popular-items .nav-tabs .nav-link.active {
+    background: none;
+    border-bottom: 2px solid #ff5757;
+    z-index: 5;
+    position: relative
+}
+
+.popular-items .nice-select {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    border: none;
+    color: #333333;
+    height: 31px;
+    line-height: 31px;
+    padding-right: 47px
+}
+
+.popular-items .nice-select::after {
+    border-bottom: 1px solid #333333;
+    border-right: 1px solid #333333;
+    height: 7px;
+    width: 7px;
+    margin-top: -4px;
+    right: 17px
+}
+
+.popular-items .nice-select .list {
+    background-color: #fff;
+    border-radius: 0;
+    width: 100%
+}
+
+.single-popular-items:hover .popular-img .img-cap {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible
+}
+
+.single-popular-items:hover .popular-img .favorit-items {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.new-arrival {
+    padding-top: 50px;
+    padding-bottom: 80px
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .new-arrival {
+        padding-top: 90px;
+        padding-bottom: 80px
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .new-arrival {
+        padding-top: 17px;
+        padding-bottom: 60px
+    }
+}
+
+@media (max-width: 575px) {
+    .new-arrival {
+        padding-top: 0;
+        padding-bottom: 50px
+    }
+}
+
+.new-arrival.new-arrival2 {
+    padding: 0
+}
+
+.new-arrival .single-new-arrival .popular-img {
+    overflow: hidden;
+    position: relative
+}
+
+.new-arrival .single-new-arrival .popular-img img {
+    width: 100%
+}
+
+.new-arrival .single-new-arrival .popular-img .favorit-items {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    transform: scale(1);
+    cursor: pointer
+}
+
+.new-arrival .single-new-arrival .popular-img .favorit-items span {
+    color: #333333;
+    font-size: 30px;
+    cursor: pointer
+}
+
+.new-arrival .single-new-arrival .popular-img .favorit-items img {
+    width: 44px;
+    height: 44px
+}
+
+.new-arrival .single-new-arrival .popular-caption {
+    border: 1px solid #F6F8FE;
+    padding: 31px 0;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.new-arrival .single-new-arrival .popular-caption h3 a {
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-decoration: underline transparent;
+    font-family: "Poppins", sans-serif
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .new-arrival .single-new-arrival .popular-caption h3 a {
+        font-size: 17px
+    }
+}
+
+@media (max-width: 575px) {
+    .new-arrival .single-new-arrival .popular-caption h3 a {
+        font-size: 20px
+    }
+}
+
+.new-arrival .single-new-arrival .popular-caption .rating i {
+    font-size: 15px;
+    color: #FBBA42
+}
+
+.new-arrival .single-new-arrival .popular-caption span {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+    display: block
+}
+
+.single-new-arrival:hover .popular-img .favorit-items {
+    opacity: 1;
+    visibility: visible;
+    right: 20px;
+    transform: scale(1.08)
+}
+
+.single-new-arrival:hover .popular-caption {
+    -webkit-box-shadow: 0 13px 36px rgba(29, 37, 71, 0.05)
+}
+
+.single-new-arrival:hover .popular-caption h3 a {
+    color: inherit;
+    text-decoration: underline
+}
+
+.popular-product .single-product {
+    position: relative
+}
+
+.popular-product .single-product .location-img {
+    overflow: hidden;
+    position: relative;
+    z-index: 0
+}
+
+.popular-product .single-product .location-img img {
+    width: 100%;
+    transform: scale(1);
+    transition: all .5s ease-out 0s
+}
+
+.popular-product .single-product .location-details {
+    position: absolute;
+    left: 45px;
+    bottom: 53px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .popular-product .single-product .location-details {
+        left: 32px;
+        bottom: 30px
+    }
+}
+
+@media (max-width: 575px) {
+    .popular-product .single-product .location-details {
+        left: 19px;
+        bottom: 20px
+    }
+}
+
+.popular-product .single-product .location-details p {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 400;
+    display: block;
+    line-height: 44px;
+    margin-bottom: 25px
+}
+
+@media (max-width: 575px) {
+    .popular-product .single-product .location-details p {
+        font-size: 18px
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .popular-product .single-product .location-details p {
+        font-size: 29px;
+        line-height: 35px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .popular-product .single-product .location-details p {
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 13px
+    }
+}
+
+@media (max-width: 575px) {
+    .popular-product .single-product .location-details p {
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 13px
+    }
+}
